@@ -1,0 +1,30 @@
+[
+  {
+    "model": "djsb.department",
+    "pk": 1,
+    "fields": {
+      "name": "Development"
+    }
+  },
+  {
+    "model": "djsb.department",
+    "pk": 2,
+    "fields": {
+      "name": "Accounting"
+    }
+  },
+  {
+    "model": "djsb.department",
+    "pk": 3,
+    "fields": {
+      "name": "PR"
+    }
+  },
+  {
+    "model": "djsb.department",
+    "pk": 4,
+    "fields": {
+      "name": "QA"
+    }
+  }
+]
