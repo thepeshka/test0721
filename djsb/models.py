@@ -14,7 +14,7 @@ class Department(Model):
 
 class Employee(Model):
     first_name = CharField(max_length=100)
-    last_name = CharField(max_length=100)
+    last_name = CharField(max_length=100, db_index=True)
     middle_name = CharField(max_length=100)
     photo = ImageField(blank=True, null=True)
     position = CharField(max_length=100)
