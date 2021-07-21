@@ -26,4 +26,4 @@ class Employee(Model):
         return "%s %s %s" % (self.last_name, self.first_name, self.middle_name)
 
     def __repr__(self):
-        return "<Department %s>" % self.__str__()
+        return "<Employee %s>" % self.__str__()
